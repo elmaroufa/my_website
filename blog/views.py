@@ -53,6 +53,10 @@ def post_detail(request, slug):
                 'comment_form' : comment_form
             })
 
+def portofolio_view(request):
+    template_name = 'portofolio.html'
+    return render(request,template_name)
+
 
 
 
